@@ -1,0 +1,20 @@
+// to set user name
+git config --global user.name username
+
+// to set email
+git config --global user.email useremail
+
+// to create empty git repository
+git init
+
+// to check git folder
+ls -lart (all files stored inside .git folder)
+
+// to check the status of a file
+    there are 4 stages 
+    1. Untracked (where file is not tracked by git)
+    2. Staged (after commit file goes to staged mode)
+    3. Unmodified (after staged file gose to unmodified state)
+    4. Modified (if any modification done then file goes to modified state, here we need to commit our chages)
+
+git status
