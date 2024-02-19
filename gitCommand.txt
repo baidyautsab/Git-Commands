@@ -60,3 +60,12 @@ git diff -f
 git commit -a -m "skiped staging area and fixed <"
 
 if you write any comment the write in > -m "comment"
+
+// to remove a file
+git rm --cached filename(with extention)
+
+this command remove the file from staged state to untrack state
+
+git rm 
+
+this line remove file from git and memory also
