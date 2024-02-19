@@ -18,3 +18,34 @@ ls -lart (all files stored inside .git folder)
     4. Modified (if any modification done then file goes to modified state, here we need to commit our chages)
 
 git status
+
+// to change state from untracked to staged
+git add filename(with extention)
+
+// to commit(in this state(staged) git asked us to commit our changes)
+git commit
+
+this command open vm editor where we can't write anything directly,
+to write command we have to press i
+
+to commit write -> initial commit
+to exit write -> esc -> : + w + q (this line commit our changes)
+
+// to create a blanck file
+touch filename (with extention)
+this file is in untracked staged
+
+// to add all the file in staged state
+git add -A
+
+// to get back last update
+git checkout filename(with extention)
+
+// to get back all file to its last update which are in modified state
+git checkout -f
+
+// to display details about the last edit with editor
+git log
+
+we can specify how many log we want to display
+git log -p 
