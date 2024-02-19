@@ -66,6 +66,6 @@ git rm --cached filename(with extention)
 
 this command remove the file from staged state to untrack state
 
-git rm 
+git rm -f filename(with extention)
 
 this line remove file from git and memory also
