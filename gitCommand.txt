@@ -69,3 +69,12 @@ this command remove the file from staged state to untrack state
 git rm -f filename(with extention)
 
 this line remove file from git and memory also
+
+// if we want to ignore any file and folder, create a folder gitignore and write those in this folder
+touch .gitignore
+
+mention those files or folder
+
+/index.html (specific file will be ignored)
+*.css (all .css file will be ignored)
+foldername/ (spcific folder will be ignored)
