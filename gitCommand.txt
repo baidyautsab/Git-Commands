@@ -49,3 +49,14 @@ git log
 
 we can specify how many log we want to display
 git log -p 
+
+// to find the difference with current working tree and staged state
+git diff
+
+// to compair with last update
+git diff -f
+
+// to auto commit
+git commit -a -m "skiped staging area and fixed <"
+
+if you write any comment the write in > -m "comment"
