@@ -41,6 +41,9 @@ git add -A
 // to get back last update
 git checkout filename(with extention)
 
+// to switch one branch to another
+git checkout branchname
+
 // to get back all file to its last update which are in modified state
 git checkout -f
 
@@ -78,3 +81,14 @@ mention those files or folder
 /index.html (specific file will be ignored)
 *.css (all .css file will be ignored)
 foldername/ (spcific folder will be ignored)
+
+// In Git, branches are a part of your everyday development process. Git branches are effectively a pointer to snapshot of your changes.
+
+In Git, a branch is a new/separate version of the main repository
+
+master is the parent of all branch
+
+to create new branch > git branch branchname
+
+// to display all branches
+git branch
