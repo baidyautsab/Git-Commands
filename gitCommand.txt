@@ -48,7 +48,7 @@ git checkout -f
 git log
 
 we can specify how many log we want to display
-git log -p 
+git log -p -(value)
 
 // to find the difference with current working tree and staged state
 git diff
@@ -61,7 +61,7 @@ git commit -a -m "skiped staging area and fixed <"
 
 if you write any comment the write in > -m "comment"
 
-// to remove a file
+// to remove a file 
 git rm --cached filename(with extention)
 
 this command remove the file from staged state to untrack state
