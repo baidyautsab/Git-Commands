@@ -96,3 +96,9 @@ git branch
 
 // to merge other branch with master
 git merge branchname
+
+// to add git repository in github
+create a repository in github, copy the origin link, run in bash, now git is connected with github
+
+// to push git files to github
+git push origin master(or branchname)
