@@ -92,3 +92,6 @@ to create new branch > git branch branchname
 
 // to display all branches
 git branch
+
+// to merge other branch with master
+git merge branchname
