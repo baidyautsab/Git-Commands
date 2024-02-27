@@ -103,5 +103,7 @@ create a repository in github, copy the origin link, run in bash, now git is con
 // to push git files to github
 git push origin master(or branchname)
 
+or, git push -f origin master
+
 // to clone repository, go to the folder where you want to clone, other wise it will create a folder by itself
 git clone repository-url
